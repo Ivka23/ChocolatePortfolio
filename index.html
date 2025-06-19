@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+
+  <div class="video-background">
+    <video autoplay muted loop playsinline id="bgVideo">
+      <source src="assets/chocolate_melted.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+  </div>
+
+ 
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    
+    <section id="home" class="section">
+      <div class="hero">
+        <h1>Just two<br> ingredients.</h1>
+        <p>Walnuts & Milk Chocolate</p>
+      </div>
+    </section>
+
+  
+    <section id="work" class="section light">
+  <h2>My Work</h2>
+  <div class="projects">
+    
+    <a href="https://ivka23.github.io/Revzz-Portfolio/" class="project-card" target="_blank">
+      <h3>Project One</h3>
+      <p>Custom Minimalistic Website for My Car community - Revzz Official</p>
+    </a>
+    
+    <a href="https://ivka23.github.io/Social-Craft-Website/" class="project-card" target="_blank">
+      <h3>Project Two</h3>
+      <p>Modern Gallery for a local digital agency</p>
+    </a>
+    
+    <a href="https://beyonddigitalskills.netlify.app/" class="project-card" target="_blank">
+      <h3>Project Three</h3>
+      <p>Website Design for the annual event - Beyond Digital Skills at University St. St. Cyril and Methodius </p>
+    </a>
+
+  </div>
+</section>
+
+
+   
+    <section id="about" class="section dark">
+      <h2>About Me</h2>
+      <p>I'm a social media manager & front end developer with 3 years of experience in building elegant, user-friendly websites using HTML, CSS  and Systeme.io.</p>
+      <p>My focus is on creating clean, conversion-driven, and visually impactful digital experiences, building communities & monetizing videos for your online bussiness.</p>
+      <p>Contact me via email - workwithivanapetrova@gmail.com</p>
+    </section>
+
+    
+    <section id="contact" class="section light">
+  <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/movwwyrr" method="POST">
+    <label for="name">Name:</label><br />
+    <input type="text" name="name" required><br /><br />
+
+    <label for="email">Email:</label><br />
+    <input type="email" name="email" required><br /><br />
+
+    <label for="message">Message:</label><br />
+    <textarea name="message" rows="5" required></textarea><br /><br />
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+  </main>
+
+</body>
+</html>
